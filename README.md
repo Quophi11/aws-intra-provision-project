@@ -1,2 +1,2 @@
 About this project
-provsioning infra with terraform
+provsioning aws infra with terraform
