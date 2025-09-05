@@ -14,3 +14,6 @@ terraform.tfplan
 
 # Keep the lockfile (recommended)
 !/.terraform.lock.hcl
+
+
+.terraform/providers/registry.terraform.io/hashicorp
