@@ -1,3 +1,10 @@
+# CodeArtifact module
+module "codeartifact" {
+  source                = "./modules/codeartifact"
+  domain_name           = "nextwork"
+  repository_name       = "nextwork-devops-cicd"
+  repository_description = "This repository stores packages related to a Java web app created as a part of NextWork's CI/CD Pipeline series."
+}
 # Fetch your public IP dynamically
 data "http" "my_ip" {
   url = "https://checkip.amazonaws.com/"
